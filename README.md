@@ -21,6 +21,6 @@ Repository is created with:
 * jQuery-UI version: 1.12.1
 * Bootstrap version: 4.0.0
 
-##Additional Info
+## Additional Info
 * Launch Date: 18 June, 2019
 * Version: 1.0.0
