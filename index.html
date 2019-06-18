@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Multi Select Drop Down</title>
+    <link href="plugins/bootstrap-4.0.0/css/bootstrap.min.css" rel="stylesheet">   
+    <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="plugins/jQueryUi/jquery-ui.css" rel="stylesheet">   
+    <link href="css/style.css" rel="stylesheet">
+</head>
+    
+<body>
+    <div id="main-container">        
+        <div class="container-fluid"> 
+            <div class="row mt-3 mb-3">
+                <div class="col-md-12">
+                    <h4 class="title_text mb-15 ">Multi Select Drag and Drop</h4>
+                    
+                    <div>
+                        <form action="" id="custom_report_form" method="post">
+                            <div class="col-sm-12 outer-frame  card bg-light">
+                                <div class="row mt-4">
+                                    <div class="col-sm-7">
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="sortable_heading">
+                                                    <label>List of Columns</label>
+                                                    <span id="deselect_all_btn" class="action_label pull-right ml-3">Deselect</span>
+                                                    <span id="select_all_btn" class="action_label pull-right">Select All</span>
+                                                </div>
+                                                <ul id="sortable1" class="connectedSortable">
+                                                    <li rel="first_item" class="ui-state-default">First Item </li>
+                                                    <li rel="first_item" class="ui-state-default">Second Item </li>
+                                                    <li rel="first_item" class="ui-state-default">Third Item </li>
+                                                    <li rel="first_item" class="ui-state-default">Fourth Item </li>
+                                                    <li rel="first_item" class="ui-state-default">Fifth Item </li>
+                                                    <li rel="first_item" class="ui-state-default">Sixth Item </li>
+                                                    <li rel="first_item" class="ui-state-default">Seventh Item </li>
+                                                    <li rel="disabled_item" class="ui-state-default sortable_disabled_item">Disabled Item</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="sortable_heading">
+                                                    <label>Selected Columns</label>
+                                                    <span class="pull-right action_label" id="clear_all_btn">Reset</span>
+                                                </div>                                            
+                                                <ul id="sortable2" class="connectedSortable">
+                                                     
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>       
+                </div>
+            </div>           
+        </div>
+    </div>
+                    
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="plugins/jQueryUi/jquery-ui.js"></script>
+    <script type="text/javascript" src="plugins/popper/popper.min.js"></script>
+    <script type="text/javascript" src="plugins/bootstrap-4.0.0/js/bootstrap.min.js"></script>
+    <!--<script type="text/javascript" src="{{ env.src }}/base/assets/js/common.js"></script>-->
+    <script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>
